@@ -1,0 +1,5 @@
+item.zombiemod:Butter.name=Butter
+item.zombiemod:Chocolate.name=Chocolate
+tile.zombiemod:Sheep.name=Sheep Block
+tile.zombiemod:Churn.name=Butter Churn
+itemGroup.zombiemod=Zombie Mod
