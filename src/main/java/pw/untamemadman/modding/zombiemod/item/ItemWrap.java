@@ -13,6 +13,7 @@ public class ItemWrap extends Item
     {
         super();
         this.setCreativeTab(CreativeTabZombieMod.ZOMBIEMOD_TAB);
+        this.setFull3D();
     }
     @Override
     public String getUnlocalizedName()

@@ -1,4 +1,5 @@
 package pw.untamemadman.modding.zombiemod.item;
+
 public class ItemChocolate extends ItemWrap
 {
     public ItemChocolate()
