@@ -1,29 +1,13 @@
-[14:12:40] [main/INFO]: Logging in with username & password
-[14:12:47] [main/INFO]: Setting user: untamemadman
-[14:12:49] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:12:51] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[14:12:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
-[14:12:59] [Sound Library Loader/INFO]: Sound engine started
-[14:13:03] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[14:13:03] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[14:13:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
-[14:13:04] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[14:13:06] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[14:13:07] [Sound Library Loader/INFO]: Sound engine started
-[14:13:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:13:25] [Server thread/INFO]: Generating keypair
-[14:13:25] [Server thread/INFO]: Preparing start region for level 0
-[14:13:26] [Server thread/INFO]: Changing view distance to 12, from 10
-[14:13:27] [Server thread/INFO]: untamemadman[local:E:cd1d521b] logged in with entity id 163 at (-302.63791156045806, 4.0, -268.276020620345)
-[14:13:27] [Server thread/INFO]: untamemadman joined the game
-[14:13:49] [Server thread/INFO]: Saving and pausing game...
-[14:13:49] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[14:13:49] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[14:13:49] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[14:13:49] [Server thread/INFO]: Stopping server
-[14:13:49] [Server thread/INFO]: Saving players
-[14:13:49] [Server thread/INFO]: Saving worlds
-[14:13:49] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[14:13:49] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[14:13:49] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[14:13:51] [Client thread/INFO]: Stopping!
+[19:54:46] [main/INFO]: Logging in with username & password
+[19:54:53] [main/INFO]: Setting user: untamemadman
+[19:54:55] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:54:58] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[19:55:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
+[19:55:06] [Sound Library Loader/INFO]: Sound engine started
+[19:55:10] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[19:55:10] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[19:55:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
+[19:55:11] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[19:55:13] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[19:55:14] [Sound Library Loader/INFO]: Sound engine started
+[19:55:23] [Client thread/INFO]: Stopping!
