@@ -1,5 +1,3 @@
-ZombieMod
-=========
-Builds for The Zombie Mod
+ZombieMod - Builds
 =========
 This is where you can download the mod
