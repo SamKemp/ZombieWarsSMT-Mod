@@ -11,7 +11,7 @@ public class ModItems
     public static final ItemWrap Butter = new ItemButter();
     public static final ItemFood Chocolate = new ItemChocolate();
     public static final ItemWrap Wrapper = new ItemWrapper();
-    public static final ItemFood ChocolateApple = new ItemChocolateApple();
+    public static final ItemFood ChocolateApple = new ItemChocolateApple(1, 1.0F, true);
     public static void init()
     {
         GameRegistry.registerItem(Butter, "Butter");

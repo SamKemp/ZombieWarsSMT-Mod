@@ -10,6 +10,7 @@ item.SheepPants.name=Sheep Pants
 item.SheepBoots.name=Sheep Boots
 item.DerpyMask.name=Derpy Mask
 item.Glasses.name=Glasses
+item.ChocolateApple.name=Chocolate Apple
 
 //Blocks
 tile.zombiemod:Sheep.name=Sheep Block

@@ -1,12 +1,12 @@
-[00:58:39] [main/INFO]: Logging in with username & password
-[00:58:46] [main/INFO]: Setting user: untamemadman
-[00:58:48] [Client thread/INFO]: LWJGL Version: 2.9.1
-[00:58:50] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[00:58:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
-[00:58:58] [Sound Library Loader/INFO]: Sound engine started
-[00:59:03] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[00:59:03] [Client thread/ERROR]: Using missing texture, unable to load zombiemod:textures/items/ChocolateApple.png
-java.io.FileNotFoundException: zombiemod:textures/items/ChocolateApple.png
+[23:28:49] [main/INFO]: Logging in with username & password
+[23:28:57] [main/INFO]: Setting user: untamemadman
+[23:28:59] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:29:02] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[23:29:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
+[23:29:11] [Sound Library Loader/INFO]: Sound engine started
+[23:29:15] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[23:29:15] [Client thread/ERROR]: Using missing texture, unable to load zombiemod:textures/items/GlassesUpgrade.png
+java.io.FileNotFoundException: zombiemod:textures/items/GlassesUpgrade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -35,10 +35,10 @@ java.io.FileNotFoundException: zombiemod:textures/items/ChocolateApple.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[00:59:03] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[00:59:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
-[00:59:03] [Client thread/ERROR]: Using missing texture, unable to load zombiemod:textures/items/ChocolateApple.png
-java.io.FileNotFoundException: zombiemod:textures/items/ChocolateApple.png
+[23:29:15] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[23:29:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
+[23:29:15] [Client thread/ERROR]: Using missing texture, unable to load zombiemod:textures/items/GlassesUpgrade.png
+java.io.FileNotFoundException: zombiemod:textures/items/GlassesUpgrade.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -70,30 +70,23 @@ java.io.FileNotFoundException: zombiemod:textures/items/ChocolateApple.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[00:59:04] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[00:59:06] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[00:59:07] [Sound Library Loader/INFO]: Sound engine started
-[00:59:14] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[00:59:14] [Server thread/INFO]: Generating keypair
-[00:59:15] [Server thread/INFO]: Preparing start region for level 0
-[00:59:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[00:59:16] [Server thread/INFO]: untamemadman[local:E:f5882a4c] logged in with entity id 158 at (-300.4705807792974, 4.0, -284.43265573697835)
-[00:59:16] [Server thread/INFO]: untamemadman joined the game
-[00:59:27] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
-[00:59:28] [Server thread/INFO]: [untamemadman: Set own game mode to Survival Mode]
-[00:59:28] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[00:59:29] [Server thread/INFO]: Saving and pausing game...
-[00:59:29] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[00:59:29] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[00:59:29] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[00:59:40] [Server thread/INFO]: Saving and pausing game...
-[00:59:40] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[00:59:40] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[00:59:40] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[00:59:41] [Server thread/INFO]: Stopping server
-[00:59:41] [Server thread/INFO]: Saving players
-[00:59:41] [Server thread/INFO]: Saving worlds
-[00:59:41] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[00:59:41] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[00:59:41] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[00:59:42] [Client thread/INFO]: Stopping!
+[23:29:15] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[23:29:17] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[23:29:18] [Sound Library Loader/INFO]: Sound engine started
+[23:29:23] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:29:23] [Server thread/INFO]: Generating keypair
+[23:29:24] [Server thread/INFO]: Preparing start region for level 0
+[23:29:25] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:29:25] [Server thread/INFO]: untamemadman[local:E:0ff78e82] logged in with entity id 154 at (-308.7602625727664, 4.0, -270.0631327519513)
+[23:29:25] [Server thread/INFO]: untamemadman joined the game
+[23:29:52] [Server thread/INFO]: Saving and pausing game...
+[23:29:52] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[23:29:52] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[23:29:52] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[23:29:53] [Server thread/INFO]: Stopping server
+[23:29:53] [Server thread/INFO]: Saving players
+[23:29:53] [Server thread/INFO]: Saving worlds
+[23:29:53] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[23:29:53] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[23:29:53] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[23:29:54] [Client thread/INFO]: Stopping!

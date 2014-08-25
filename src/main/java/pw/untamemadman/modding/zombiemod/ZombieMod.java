@@ -1,6 +1,7 @@
 package pw.untamemadman.modding.zombiemod;
 import pw.untamemadman.modding.zombiemod.armor.DerpyMask;
 import pw.untamemadman.modding.zombiemod.armor.Glasses;
+import pw.untamemadman.modding.zombiemod.armor.GlassesUpgrade;
 import pw.untamemadman.modding.zombiemod.armor.SheepArmor;
 import pw.untamemadman.modding.zombiemod.handeler.ConfigHandeler;
 import pw.untamemadman.modding.zombiemod.init.ModBlocks;
@@ -30,6 +31,7 @@ public class ZombieMod
         SheepArmor.RegisterSheepArmor();
         DerpyMask.RegisterDerpyMask();
         Glasses.RegisterGlasses();
+        GlassesUpgrade.RegisterGlassesUpgrade();
     }
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
