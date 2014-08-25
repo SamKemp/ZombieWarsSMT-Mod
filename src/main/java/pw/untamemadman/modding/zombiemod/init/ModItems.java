@@ -1,9 +1,7 @@
 package pw.untamemadman.modding.zombiemod.init;
 
-import pw.untamemadman.modding.zombiemod.item.ItemButter;
-import pw.untamemadman.modding.zombiemod.item.ItemChocolate;
-import pw.untamemadman.modding.zombiemod.item.ItemWrap;
-import pw.untamemadman.modding.zombiemod.item.ItemWrapper;
+import net.minecraft.item.ItemFood;
+import pw.untamemadman.modding.zombiemod.item.*;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -11,12 +9,14 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModItems
 {
     public static final ItemWrap Butter = new ItemButter();
-    public static final ItemWrap Chocolate = new ItemChocolate();
+    public static final ItemFood Chocolate = new ItemChocolate();
     public static final ItemWrap Wrapper = new ItemWrapper();
+    public static final ItemFood ChocolateApple = new ItemChocolateApple();
     public static void init()
     {
         GameRegistry.registerItem(Butter, "Butter");
         GameRegistry.registerItem(Chocolate, "Chocolate");
         GameRegistry.registerItem(Wrapper, "Wrapper");
+        GameRegistry.registerItem(ChocolateApple, "ChocolateApple");
     }
 }
