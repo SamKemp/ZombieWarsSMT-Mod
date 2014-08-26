@@ -34,6 +34,11 @@ public class ItemGlassesUpgrade extends ItemArmor
             player.addPotionEffect(new PotionEffect(Potion.nightVision.id, 2, 1, true));
         }
     }
+    @SideOnly(Side.CLIENT)
+    public boolean hasEffect(ItemStack par1ItemStack)
+    {
+        return true;
+    }
 
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)

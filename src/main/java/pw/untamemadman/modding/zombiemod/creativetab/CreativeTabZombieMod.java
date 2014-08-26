@@ -1,6 +1,8 @@
 package pw.untamemadman.modding.zombiemod.creativetab;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import pw.untamemadman.modding.zombiemod.armor.DerpyMask;
+import pw.untamemadman.modding.zombiemod.armor.ItemDerpyMask;
 import pw.untamemadman.modding.zombiemod.init.ModItems;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
 public class CreativeTabZombieMod
@@ -10,7 +12,7 @@ public class CreativeTabZombieMod
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.Chocolate;
+            return DerpyMask.DerpyMask;
         }
     };
 }

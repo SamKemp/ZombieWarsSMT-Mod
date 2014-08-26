@@ -8,4 +8,5 @@ public class Reference
     public static final String ClientProxyClass = "pw.untamemadman.modding.zombiemod.proxy.ClientProxy";
     public static final String ServerProxyClass = "pw.untamemadman.modding.zombiemod.proxy.ServerProxy";
     public static final String GUIFactoryClass = "pw.untamemadman.modding.zombiemod.client.gui.GuiFactory";
+    public static final String DevCapes = "https://raw.githubusercontent.com/untamemadman/MCCapes/master/ZombieMod/capes.json";
 }

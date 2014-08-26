@@ -8,6 +8,7 @@ import pw.untamemadman.modding.zombiemod.handeler.ConfigHandeler;
 import pw.untamemadman.modding.zombiemod.init.ModBlocks;
 import pw.untamemadman.modding.zombiemod.init.ModItems;
 import pw.untamemadman.modding.zombiemod.init.Recipes;
+import pw.untamemadman.modding.zombiemod.proxy.CommonProxy;
 import pw.untamemadman.modding.zombiemod.proxy.IProxy;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -22,7 +23,7 @@ public class ZombieMod
     @Mod.Instance(Reference.MOD_ID)
     public static ZombieMod instances;
     @SidedProxy(clientSide = Reference.ClientProxyClass, serverSide = Reference.ServerProxyClass)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
@@ -38,6 +39,7 @@ public class ZombieMod
     public void Init(FMLInitializationEvent event)
     {
         Recipes.init();
+        proxy.initCapes();
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
