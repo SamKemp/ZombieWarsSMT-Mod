@@ -18,7 +18,7 @@ public class Recipes {
 
         //Head things
         GameRegistry.addRecipe(new ItemStack(Glasses.Glasses), "WWW", "GWG", "WWW", 'G', new ItemStack(Blocks.glass_pane), 'W', new ItemStack(Items.iron_ingot));
-        //GameRegistry.addRecipe(new ItemStack(GlassesUpgrade.GlassesUpgrade), "WWW", "WGW", "WWW", 'W', new ItemStack(ModItems.Chocolate), 'G', new ItemStack(Glasses.Glasses));
+        GameRegistry.addRecipe(new ItemStack(GlassesUpgrade.GlassesUpgrade), "WWW", "WGW", "WWW", 'W', new ItemStack(ModItems.Chocolate), 'G', new ItemStack(Glasses.Glasses));
         GameRegistry.addRecipe(new ItemStack(DerpyMask.DerpyMask), "XXX", "SXS", "XXX", 'X', new ItemStack(Blocks.wool), 'S', new ItemStack(Items.string));
 
         //Sheep
