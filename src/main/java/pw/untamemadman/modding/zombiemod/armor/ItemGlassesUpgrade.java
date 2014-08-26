@@ -11,6 +11,7 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 import pw.untamemadman.modding.zombiemod.creativetab.CreativeTabZombieMod;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
+import pw.untamemadman.modding.zombiemod.utility.LogHelper;
 
 /**
  * Created by Sam on 8/25/2014.
@@ -26,6 +27,15 @@ public class ItemGlassesUpgrade extends ItemArmor
     }
 
     @Override
+    public void onArmorTick(World world, EntityPlayer player, ItemStack armor)
+    {
+        if(!world.isRemote)
+        {
+            player.addPotionEffect(new PotionEffect(Potion.nightVision.id, 2, 1, true));
+        }
+    }
+
+    @Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
     {
         if(stack.getItem()== GlassesUpgrade.GlassesUpgrade)
@@ -36,10 +46,5 @@ public class ItemGlassesUpgrade extends ItemArmor
         {
             return null;
         }
-    }
-    @Override
-    public void onArmorTick(World world, EntityPlayer player, ItemStack armor)
-    {
-        player.addPotionEffect(new PotionEffect(Potion.nightVision.id, 2, 1, true));
     }
 }

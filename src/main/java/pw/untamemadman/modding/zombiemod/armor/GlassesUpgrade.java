@@ -16,7 +16,7 @@ public class GlassesUpgrade
 
     public static void RegisterGlassesUpgrade()
     {
-        GlassesUpgrade = new ItemGlasses(GlassesUpgradeArmorMaterial, 0, "GlassesUpgrade");
+        GlassesUpgrade = new ItemGlassesUpgrade(GlassesUpgradeArmorMaterial, 0, "GlassesUpgrade");
         RegisterHelper.registerItem(GlassesUpgrade);
     }
 }
