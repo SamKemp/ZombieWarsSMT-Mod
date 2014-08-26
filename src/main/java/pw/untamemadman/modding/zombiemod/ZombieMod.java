@@ -31,7 +31,7 @@ public class ZombieMod
         SheepArmor.RegisterSheepArmor();
         DerpyMask.RegisterDerpyMask();
         Glasses.RegisterGlasses();
-        GlassesUpgrade.RegisterGlassesUpgrade();
+        //GlassesUpgrade.RegisterGlassesUpgrade();
     }
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)

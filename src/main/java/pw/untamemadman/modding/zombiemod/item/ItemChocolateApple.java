@@ -55,6 +55,7 @@ public class ItemChocolateApple extends ItemFood
             p_77849_3_.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 6000, 1));
             p_77849_3_.addPotionEffect(new PotionEffect(Potion.digSpeed.id, 6000, 2));
             p_77849_3_.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 6000, 2));
+            p_77849_3_.addPotionEffect(new PotionEffect(Potion.jump.id, 6000, 2));
             p_77849_3_.addPotionEffect(new PotionEffect(5, 6000, 2));
         }
 

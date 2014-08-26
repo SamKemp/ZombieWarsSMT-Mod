@@ -1,92 +1,29 @@
-[23:28:49] [main/INFO]: Logging in with username & password
-[23:28:57] [main/INFO]: Setting user: untamemadman
-[23:28:59] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:29:02] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[23:29:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
-[23:29:11] [Sound Library Loader/INFO]: Sound engine started
-[23:29:15] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[23:29:15] [Client thread/ERROR]: Using missing texture, unable to load zombiemod:textures/items/GlassesUpgrade.png
-java.io.FileNotFoundException: zombiemod:textures/items/GlassesUpgrade.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:593) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:29:15] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
-[23:29:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
-[23:29:15] [Client thread/ERROR]: Using missing texture, unable to load zombiemod:textures/items/GlassesUpgrade.png
-java.io.FileNotFoundException: zombiemod:textures/items/GlassesUpgrade.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:29:15] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
-[23:29:17] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[23:29:18] [Sound Library Loader/INFO]: Sound engine started
-[23:29:23] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[23:29:23] [Server thread/INFO]: Generating keypair
-[23:29:24] [Server thread/INFO]: Preparing start region for level 0
-[23:29:25] [Server thread/INFO]: Changing view distance to 12, from 10
-[23:29:25] [Server thread/INFO]: untamemadman[local:E:0ff78e82] logged in with entity id 154 at (-308.7602625727664, 4.0, -270.0631327519513)
-[23:29:25] [Server thread/INFO]: untamemadman joined the game
-[23:29:52] [Server thread/INFO]: Saving and pausing game...
-[23:29:52] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[23:29:52] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[23:29:52] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[23:29:53] [Server thread/INFO]: Stopping server
-[23:29:53] [Server thread/INFO]: Saving players
-[23:29:53] [Server thread/INFO]: Saving worlds
-[23:29:53] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[23:29:53] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[23:29:53] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[23:29:54] [Client thread/INFO]: Stopping!
+[17:09:34] [main/INFO]: Logging in with username & password
+[17:09:42] [main/INFO]: Setting user: untamemadman
+[17:09:44] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:09:47] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[17:09:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
+[17:09:59] [Sound Library Loader/INFO]: Sound engine started
+[17:10:04] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[17:10:04] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[17:10:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TheZombieMod
+[17:10:05] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[17:10:07] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[17:10:08] [Sound Library Loader/INFO]: Sound engine started
+[17:10:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:10:24] [Server thread/INFO]: Generating keypair
+[17:10:28] [Server thread/INFO]: Preparing start region for level 0
+[17:10:29] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:10:30] [Server thread/INFO]: untamemadman[local:E:39dd3968] logged in with entity id 149 at (-308.4831165428241, 4.0, -269.7373617908107)
+[17:10:30] [Server thread/INFO]: untamemadman joined the game
+[17:10:34] [Server thread/INFO]: Saving and pausing game...
+[17:10:34] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[17:10:35] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[17:10:35] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[17:10:35] [Server thread/INFO]: Stopping server
+[17:10:35] [Server thread/INFO]: Saving players
+[17:10:35] [Server thread/INFO]: Saving worlds
+[17:10:35] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[17:10:35] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[17:10:35] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[17:10:36] [Client thread/INFO]: Stopping!

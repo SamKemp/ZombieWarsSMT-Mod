@@ -37,7 +37,6 @@ public class ItemGlassesUpgrade extends ItemArmor
             return null;
         }
     }
-    @SideOnly(Side.SERVER)
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack armor)
     {
