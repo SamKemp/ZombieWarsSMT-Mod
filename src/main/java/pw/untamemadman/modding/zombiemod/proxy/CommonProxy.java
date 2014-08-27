@@ -1,6 +1,8 @@
 package pw.untamemadman.modding.zombiemod.proxy;
 
-public abstract class CommonProxy implements IProxy
+import pw.untamemadman.modding.zombiemod.utility.LogHelper;
+
+public class CommonProxy
 {
     public void initCapes()
     {

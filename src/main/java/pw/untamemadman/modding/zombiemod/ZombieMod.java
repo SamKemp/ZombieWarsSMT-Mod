@@ -9,7 +9,6 @@ import pw.untamemadman.modding.zombiemod.init.ModBlocks;
 import pw.untamemadman.modding.zombiemod.init.ModItems;
 import pw.untamemadman.modding.zombiemod.init.Recipes;
 import pw.untamemadman.modding.zombiemod.proxy.CommonProxy;
-import pw.untamemadman.modding.zombiemod.proxy.IProxy;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -34,12 +33,12 @@ public class ZombieMod
         DerpyMask.RegisterDerpyMask();
         Glasses.RegisterGlasses();
         GlassesUpgrade.RegisterGlassesUpgrade();
+        proxy.initCapes();
     }
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
         Recipes.init();
-        proxy.initCapes();
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
