@@ -1,5 +1,6 @@
 package pw.untamemadman.modding.zombiemod.block;
 import pw.untamemadman.modding.zombiemod.creativetab.CreativeTabZombieMod;
+import pw.untamemadman.modding.zombiemod.init.ModBlocks;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
