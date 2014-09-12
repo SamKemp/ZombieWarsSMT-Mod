@@ -1,33 +1,37 @@
-[23:16:45] [main/INFO]: Logging in with username & password
-[23:16:51] [main/INFO]: Setting user: untamemadman
-[23:16:54] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:16:56] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[23:17:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
-[23:17:04] [Sound Library Loader/INFO]: Sound engine started
-[23:17:09] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[23:17:09] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[23:17:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
-[23:17:10] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[23:17:12] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[23:17:13] [Sound Library Loader/INFO]: Sound engine started
-[23:17:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[23:17:18] [Server thread/INFO]: Generating keypair
-[23:17:19] [Server thread/INFO]: Preparing start region for level 0
-[23:17:20] [Server thread/INFO]: Changing view distance to 12, from 10
-[23:17:21] [Server thread/INFO]: untamemadman[local:E:7d115ae2] logged in with entity id 150 at (-307.6707284828538, 4.0, -269.81787145783005)
-[23:17:21] [Server thread/INFO]: untamemadman joined the game
-[23:17:26] [Server thread/INFO]: [@: Set untamemadman's game mode to Creative Mode]
-[23:17:26] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[23:17:34] [Server thread/INFO]: [@: Set untamemadman's game mode to Survival Mode]
-[23:17:34] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[23:17:46] [Server thread/INFO]: Saving and pausing game...
-[23:17:46] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[23:17:46] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[23:17:46] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[23:17:46] [Server thread/INFO]: Stopping server
-[23:17:46] [Server thread/INFO]: Saving players
-[23:17:47] [Server thread/INFO]: Saving worlds
-[23:17:47] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[23:17:47] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[23:17:47] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[23:17:48] [Client thread/INFO]: Stopping!
+[00:38:19] [main/INFO]: Logging in with username & password
+[00:38:27] [main/INFO]: Setting user: untamemadman
+[00:38:30] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:38:33] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[00:38:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
+[00:38:42] [Sound Library Loader/INFO]: Sound engine started
+[00:38:47] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[00:38:48] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[00:38:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
+[00:38:49] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[00:38:51] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[00:38:52] [Sound Library Loader/INFO]: Sound engine started
+[00:39:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:39:10] [Server thread/INFO]: Generating keypair
+[00:39:11] [Server thread/INFO]: Preparing start region for level 0
+[00:39:12] [Server thread/INFO]: Changing view distance to 12, from 10
+[00:39:13] [Server thread/INFO]: untamemadman[local:E:eb98db36] logged in with entity id 149 at (-308.0872193736565, 4.0, -268.94994436755604)
+[00:39:13] [Server thread/INFO]: untamemadman joined the game
+[00:39:20] [Server thread/INFO]: [@: Set untamemadman's game mode to Creative Mode]
+[00:39:20] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[00:40:07] [Server thread/INFO]: [@: Given [Chocolate Apple] * 1 to untamemadman]
+[00:40:07] [Server thread/INFO]: [@: Given [Milk] * 1 to untamemadman]
+[00:40:11] [Server thread/INFO]: [@: Set untamemadman's game mode to Survival Mode]
+[00:40:11] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[00:40:37] [Server thread/INFO]: [@: Set untamemadman's game mode to Creative Mode]
+[00:40:37] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[00:42:41] [Server thread/INFO]: Saving and pausing game...
+[00:42:41] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[00:42:41] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[00:42:41] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[00:42:41] [Server thread/INFO]: Stopping server
+[00:42:41] [Server thread/INFO]: Saving players
+[00:42:41] [Server thread/INFO]: Saving worlds
+[00:42:41] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[00:42:42] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[00:42:42] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[00:42:43] [Client thread/INFO]: Stopping!

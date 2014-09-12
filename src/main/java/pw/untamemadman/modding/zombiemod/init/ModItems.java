@@ -1,9 +1,9 @@
 package pw.untamemadman.modding.zombiemod.init;
 
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemFood;
 import pw.untamemadman.modding.zombiemod.item.*;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
