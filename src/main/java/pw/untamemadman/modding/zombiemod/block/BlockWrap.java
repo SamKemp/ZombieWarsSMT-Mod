@@ -17,7 +17,7 @@ public class BlockWrap extends Block
     }
     public BlockWrap()
     {
-        this(Material.rock);
+        this(Material.cloth);
     }
     @Override
     public String getUnlocalizedName()

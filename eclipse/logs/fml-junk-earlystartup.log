@@ -1105,3 +1105,27 @@
 [20:31:03] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [20:31:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [20:31:03] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:51:13] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[21:51:13] [main/INFO] [GradleStart]: Extra: [--passsword, MEcorp1999]
+[21:51:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, sam@untamemadman.pw, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10, --passsword, MEcorp1999]
+[21:51:13] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:51:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:51:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:57:25] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[21:57:25] [main/INFO] [GradleStart]: Extra: [--passsword, MEcorp1999]
+[21:57:25] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, sam@untamemadman.pw, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10, --passsword, MEcorp1999]
+[21:57:25] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:57:25] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:57:25] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:02:38] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[22:02:38] [main/INFO] [GradleStart]: Extra: [--passsword, MEcorp1999]
+[22:02:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, sam@untamemadman.pw, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10, --passsword, MEcorp1999]
+[22:02:38] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:02:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:02:38] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:04:09] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[22:04:09] [main/INFO] [GradleStart]: Extra: [--passsword, MEcorp1999]
+[22:04:09] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, sam@untamemadman.pw, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10, --passsword, MEcorp1999]
+[22:04:09] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:04:09] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:04:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker

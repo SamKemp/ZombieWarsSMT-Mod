@@ -1,34 +1,33 @@
-[20:31:09] [main/INFO]: Setting user: sam@untamemadman.pw
-[20:31:11] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:31:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
-[20:31:22] [Sound Library Loader/INFO]: Sound engine started
-[20:31:27] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[20:31:27] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[20:31:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
-[20:31:29] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[20:31:31] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
-[20:31:32] [Sound Library Loader/INFO]: Sound engine started
-[20:31:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:31:41] [Server thread/INFO]: Generating keypair
-[20:31:42] [Server thread/INFO]: Preparing start region for level 0
-[20:31:43] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:31:44] [Server thread/INFO]: sam@untamemadman.pw[local:E:e7cc378a] logged in with entity id 157 at (-309.01575266050145, 4.857071691054618, -276.25684501270183)
-[20:31:44] [Server thread/INFO]: sam@untamemadman.pw joined the game
-[20:31:50] [Server thread/INFO]: [sam@untamemadman.pw: Toggled downfall]
-[20:31:50] [Client thread/INFO]: [CHAT] Toggled downfall
-[20:33:57] [Server thread/INFO]: Saving and pausing game...
-[20:33:59] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[20:33:59] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[20:33:59] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[20:33:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2189ms behind, skipping 43 tick(s)
-[20:43:10] [Server thread/INFO]: Saving and pausing game...
-[20:43:10] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[20:43:10] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[20:43:10] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[20:43:10] [Server thread/INFO]: Stopping server
-[20:43:10] [Server thread/INFO]: Saving players
-[20:43:10] [Server thread/INFO]: Saving worlds
-[20:43:10] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[20:43:10] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[20:43:10] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[20:46:45] [Client thread/INFO]: Stopping!
+[22:04:16] [main/INFO]: Setting user: sam@untamemadman.pw
+[22:04:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:04:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
+[22:04:31] [Sound Library Loader/INFO]: Sound engine started
+[22:04:36] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[22:04:36] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[22:04:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:TheZombieMod
+[22:04:39] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[22:04:42] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[22:04:42] [Sound Library Loader/INFO]: Sound engine started
+[22:05:59] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:05:59] [Server thread/INFO]: Generating keypair
+[22:06:00] [Server thread/INFO]: Preparing start region for level 0
+[22:06:01] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:06:02] [Server thread/INFO]: sam@untamemadman.pw[local:E:e15285d2] logged in with entity id 153 at (-306.47558353313684, 4.0, -272.69999998807907)
+[22:06:02] [Server thread/INFO]: sam@untamemadman.pw joined the game
+[22:06:07] [Server thread/INFO]: [@: Set sam@untamemadman.pw's game mode to Creative Mode]
+[22:06:07] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[22:06:15] [Server thread/INFO]: [@: Set sam@untamemadman.pw's game mode to Survival Mode]
+[22:06:15] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[22:06:46] [Server thread/INFO]: [@: Given [Chocolate Apple] * 1 to sam@untamemadman.pw]
+[22:06:46] [Server thread/INFO]: [@: Given [Milk] * 1 to sam@untamemadman.pw]
+[22:15:26] [Server thread/INFO]: Saving and pausing game...
+[22:15:26] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[22:15:26] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[22:15:26] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[22:15:26] [Server thread/INFO]: Stopping server
+[22:15:26] [Server thread/INFO]: Saving players
+[22:15:26] [Server thread/INFO]: Saving worlds
+[22:15:26] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[22:15:26] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[22:15:26] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[22:15:28] [Client thread/INFO]: Stopping!
