@@ -33,6 +33,9 @@ public class Recipes {
         //Chocolate Apples
         GameRegistry.addRecipe(new ItemStack(ModItems.ChocolateApple), "XXX", "XCX", "XXX", 'X', new ItemStack(ModItems.Chocolate), 'C', new ItemStack(Items.golden_apple));
 
+        //Chocolate Sandwich
+        GameRegistry.addRecipe(new ItemStack(ModItems.ChocolateSandwich), " X ", " C ", " X ", 'X', new ItemStack(Items.bread), 'C', new ItemStack(ModItems.Chocolate));
+
         //Sheep
         //Helmet
         GameRegistry.addRecipe(new ItemStack(SheepArmor.SheepHelmet), "XXX", "X X", "   ", 'X', new ItemStack(Blocks.wool));
@@ -42,7 +45,7 @@ public class Recipes {
         GameRegistry.addRecipe(new ItemStack(SheepArmor.SheepPants), "XXX", "X X", "X X", 'X', new ItemStack(Blocks.wool));
         //Boots
         GameRegistry.addRecipe(new ItemStack(SheepArmor.SheepBoots), "   ", "X X", "X X", 'X', new ItemStack(Blocks.wool));
-        //Blocks
+        //Block
         GameRegistry.addRecipe(new ItemStack(ModBlocks.Sheep), "XXX", "XXX", "XXX", 'X', new ItemStack(Blocks.wool));
     }
 }

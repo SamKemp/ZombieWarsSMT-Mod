@@ -12,6 +12,7 @@ item.DerpyMask.name=Derpy Mask
 item.Glasses.name=Glasses
 item.GlassesUpgrade.name=Better Glasses
 item.ChocolateApple.name=Chocolate Apple
+item.ChocolateSandwich.name=Chocolate Sandwich
 
 //Blocks
 tile.zombiemod:Sheep.name=Sheep Block
