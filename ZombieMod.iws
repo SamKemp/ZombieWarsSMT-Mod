@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03473c77-067e-4814-be39-dc16923f2754" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/item/ItemChocolateSandwich.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/playerdata/fe615344-f4a7-3877-9353-f124068b4eea.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/playerdata/fe615344-f4a7-3877-9353-f124068b4eea.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-2.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-2.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/init/Recipes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZombieMod.iws" afterPath="$PROJECT_DIR$/ZombieMod.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zombiemod/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/zombiemod/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/stats/fe615344-f4a7-3877-9353-f124068b4eea.json" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/stats/fe615344-f4a7-3877-9353-f124068b4eea.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
     </list>
     <ignored path="ZombieMod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1211,7 +1191,11 @@
       <created>1410565478286</created>
       <updated>1410565478286</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Chocolate Sandwich">
+      <created>1414356996497</created>
+      <updated>1414356996497</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1298,7 +1282,8 @@
     <MESSAGE value="Back to version 4.3 to fix Capes crash server side" />
     <MESSAGE value="Working on Block Sheep dew to bug" />
     <MESSAGE value="Added crafting to Chocolate apple" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added crafting to Chocolate apple" />
+    <MESSAGE value="Added Chocolate Sandwich" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Chocolate Sandwich" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
