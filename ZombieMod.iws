@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03473c77-067e-4814-be39-dc16923f2754" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/cape/CapeConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/cape/CapeConfigManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/cape/CapeManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/user/UserManager.java" />
+      <change type="DELETED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\cape\CapeConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\cape\CapeConfigManager.java" afterPath="" />
+      <change type="DELETED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\cape\CapeManager.java" afterPath="" />
+      <change type="DELETED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\test\DevCapesTestMod.java" afterPath="" />
+      <change type="DELETED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\user\UserManager.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-26-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-26-1.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-26-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-26-2.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-26-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-26-3.log.gz" />
@@ -9,25 +18,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-26-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-26-5.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-26-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-26-6.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-26-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-26-7.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/playerdata/fe615344-f4a7-3877-9353-f124068b4eea.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/playerdata/fe615344-f4a7-3877-9353-f124068b4eea.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-2.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/region/r.-2.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockSheep.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockSheep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockWrap.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockWrap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZombieMod.iws" afterPath="$PROJECT_DIR$/ZombieMod.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test World/stats/fe615344-f4a7-3877-9353-f124068b4eea.json" afterPath="$PROJECT_DIR$/eclipse/saves/Test World/stats/fe615344-f4a7-3877-9353-f124068b4eea.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\DevCapes.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/DevCapes.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\HDImageBuffer.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/HDImageBuffer.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\RenderEventHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/RenderEventHandler.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\cape\AbstractCape.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/cape/AbstractCape.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\cape\ICape.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/cape/ICape.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\cape\StaticCape.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/cape/StaticCape.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\user\Group.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/user/Group.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\user\GroupManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/user/GroupManager.java" />
+      <change type="MOVED" beforePath="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\developercapes\user\User.java" afterPath="$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/user/User.java" />
     </list>
     <ignored path="ZombieMod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,26 +88,20 @@
     <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="M:\untamemadman\Minecraft Mod\ZombieMod-HTML" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="ZombieMod" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ZombieMod.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ZombieMod.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockSheep.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockSheep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.408" vertical-offset="0" max-vertical-offset="500">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.31160897" vertical-offset="0" max-vertical-offset="697">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,6 +115,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -714,7 +716,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/item/ItemDerpySheepSpawnEgg.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/proxy/IProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/proxy/ClientProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/proxy/ServerProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/proxy/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/reference/Reference.java" />
@@ -726,6 +727,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/init/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockWrap.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockSheep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java" />
       </list>
     </option>
   </component>
@@ -781,16 +783,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZombieMod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -803,9 +796,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZombieMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZombieMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw.untamemadman.modding.zombiemod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZombieMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -819,28 +835,27 @@
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="M:/ME-Corp/MineralEssentials-Old/code/pw/block_breaking_games/mineral_essentials/Mineral_Essentials.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ZombieMod-HTML" />
     <property name="SearchEverywhereHistoryKey" value="ItemMonsterPlacer  PSI JAVA://net.minecraft.item.ItemMonsterPlacer&#10;enti FILE jar://C:/Users/Sam/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/entity/passive/EntitySheep.java&#10;ModelSheep PSI JAVA://net.minecraft.client.model.ModelSheep1&#10; FILE jar://C:/Users/Sam/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/item/ItemAppleGold.java&#10;apple FILE jar://C:/Users/Sam/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/item/ItemAppleGold.java&#10;coo PSI JAVA://org.apache.http.cookie.Cookie" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\untamemadman\Minecraft Mod\ZombieMod\src\main\java" />
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod\src\main\java\pw\untamemadman\modding\zombiemod\armor" />
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod\src\main\java" />
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod\src\main" />
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod\src\main\resources\assets\zombiemod\textures\blocks" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="pw.untamemadman.modding" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod\src\main\resources" />
@@ -848,6 +863,9 @@
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod\src\main\resources\assets\zombiemod\textures\items" />
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod\src\main\resources\assets\zombiemod" />
       <recent name="C:\Users\Sam\Desktop\Coding\untamemadman\Minecraft Mod\ZombieMod" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pw.untamemadman.modding" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
@@ -1154,7 +1172,11 @@
       <created>1414356996497</created>
       <updated>1414356996497</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixed bug where Sheep Block didn't drop when destroyed">
+      <created>1414361853003</created>
+      <updated>1414361853003</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1179,32 +1201,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="835" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32596686" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24466571" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24431819" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32596686" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3168044" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19093852" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32551724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23058252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24893314" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22977346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24893314" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Aquarium" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="430" y="57" width="616" height="625" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.314367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1242,7 +1264,8 @@
     <MESSAGE value="Working on Block Sheep dew to bug" />
     <MESSAGE value="Added crafting to Chocolate apple" />
     <MESSAGE value="Added Chocolate Sandwich" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Chocolate Sandwich" />
+    <MESSAGE value="Fixed bug where Sheep Block didn't drop when destroyed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug where Sheep Block didn't drop when destroyed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1255,11 +1278,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="629">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockSheep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/reference/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,13 +1473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/developercapes/DevCapes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41280353" vertical-offset="0" max-vertical-offset="2091">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/proxy/ServerProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
@@ -1512,14 +1547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3153014" vertical-offset="0" max-vertical-offset="647">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://M:/ME-Corp/MineralEssentials-Old/code/pw/block_breaking_games/mineral_essentials/Mineral_Essentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1527,7 +1554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1535,7 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,7 +1568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,7 +1575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,19 +1588,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/item/ItemFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="1972">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/init/Recipes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="833">
           <caret line="48" column="60" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,18 +1599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23658052" vertical-offset="0" max-vertical-offset="503">
           <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/block/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="40035">
-          <caret line="280" column="76" selection-start-line="280" selection-start-column="71" selection-end-line="280" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1604,10 +1606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34907597" vertical-offset="17" max-vertical-offset="595">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1615,24 +1613,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.476" vertical-offset="0" max-vertical-offset="500">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/block/BlockSheep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.408" vertical-offset="0" max-vertical-offset="500">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="676">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jadarstudios/developercapes/cape/ICape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/zombiemod/ZombieMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31160897" vertical-offset="0" max-vertical-offset="697">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1695,7 +1696,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

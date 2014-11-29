@@ -21,8 +21,10 @@ public class ZombieMod
 {
     @Mod.Instance(Reference.MOD_ID)
     public static ZombieMod instances;
+
     @SidedProxy(clientSide = Reference.ClientProxyClass, serverSide = Reference.ServerProxyClass)
     public static CommonProxy proxy;
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
@@ -35,11 +37,13 @@ public class ZombieMod
         GlassesUpgrade.RegisterGlassesUpgrade();
         proxy.initCapes();
     }
+
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
         Recipes.init();
     }
+
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {

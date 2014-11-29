@@ -1,13 +1,21 @@
-package pw.untamemadman.modding.developercapes;
+/**
+ * DeveloperCapes by Jadar
+ * License: MIT License
+ * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
+ * version 4.0.0.x
+ */
+package com.jadarstudios.developercapes;
 
-import pw.untamemadman.modding.developercapes.cape.ICape;
-import pw.untamemadman.modding.developercapes.user.User;
-import pw.untamemadman.modding.developercapes.user.UserManager;
+import com.jadarstudios.developercapes.cape.ICape;
+import com.jadarstudios.developercapes.user.User;
+import com.jadarstudios.developercapes.user.UserManager;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraftforge.client.event.RenderPlayerEvent;
 
 /**
+ * This is not the class you are looking for.
+ * 
  * @author jadar
  */
 public class RenderEventHandler {
@@ -16,7 +24,7 @@ public class RenderEventHandler {
     public void renderPlayer(RenderPlayerEvent.Specials.Pre event) {
         AbstractClientPlayer player = (AbstractClientPlayer) event.entityPlayer;
 
-        UserManager manager = UserManager.INSTANCE;
+        UserManager manager = UserManager.getInstance();
         User user = manager.getUser(player.getCommandSenderName());
         if (user == null) return;
 
@@ -28,5 +36,4 @@ public class RenderEventHandler {
             cape.loadTexture(player);
         }
     }
-
 }

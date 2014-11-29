@@ -1,6 +1,12 @@
-package pw.untamemadman.modding.developercapes.cape;
+/**
+ * DeveloperCapes by Jadar
+ * License: MIT License
+ * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
+ * version 4.0.0.x
+ */
+package com.jadarstudios.developercapes.cape;
 
-import pw.untamemadman.modding.developercapes.HDImageBuffer;
+import com.jadarstudios.developercapes.HDImageBuffer;
 import com.mojang.authlib.minecraft.MinecraftProfileTexture;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
@@ -10,6 +16,8 @@ import net.minecraft.util.ResourceLocation;
 import java.net.URL;
 
 /**
+ * Default Cape implementation
+ * 
  * @author jadar
  */
 public class StaticCape extends AbstractCape {
@@ -33,12 +41,8 @@ public class StaticCape extends AbstractCape {
 
     @Override
     public boolean isTextureLoaded(AbstractClientPlayer player) {
-        ResourceLocation location = player.getLocationCape();
-        if (location == null) {
-            return false;
-        }
-
-        return true;
+        ResourceLocation cape = player.getLocationCape();
+        return cape != null;
     }
 
     public void setURL(URL url) {
@@ -53,5 +57,4 @@ public class StaticCape extends AbstractCape {
         this.name = name;
         this.location = new ResourceLocation("DevCapes/" + name);
     }
-
 }
