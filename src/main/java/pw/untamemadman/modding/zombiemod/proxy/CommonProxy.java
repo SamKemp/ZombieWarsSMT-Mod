@@ -4,5 +4,5 @@ import pw.untamemadman.modding.zombiemod.utility.LogHelper;
 
 public class CommonProxy
 {
-
+    
 }

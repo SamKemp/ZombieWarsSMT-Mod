@@ -6,5 +6,5 @@ import pw.untamemadman.modding.zombiemod.utility.LogHelper;
 
 public class ClientProxy extends CommonProxy
 {
-
+    
 }
