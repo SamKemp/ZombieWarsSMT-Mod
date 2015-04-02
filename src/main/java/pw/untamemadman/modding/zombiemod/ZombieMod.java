@@ -35,7 +35,6 @@ public class ZombieMod
         DerpyMask.RegisterDerpyMask();
         Glasses.RegisterGlasses();
         GlassesUpgrade.RegisterGlassesUpgrade();
-        proxy.initCapes();
     }
 
     @Mod.EventHandler
