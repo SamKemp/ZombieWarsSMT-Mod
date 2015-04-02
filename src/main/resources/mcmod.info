@@ -1,7 +1,7 @@
 [
 {
 "modid": "ZombieMod",
-"name": "TheZombieMod",
+"name": "ZombieMod",
 "description": "A mod for ZombieWarsSMT!",
 "version": "${version}",
 "mcversion": "${mcversion}",

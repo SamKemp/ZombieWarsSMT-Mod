@@ -1,5 +1,10 @@
 package pw.untamemadman.modding.zombiemod;
 
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import pw.untamemadman.modding.zombiemod.armor.DerpyMask;
 import pw.untamemadman.modding.zombiemod.armor.Glasses;
 import pw.untamemadman.modding.zombiemod.armor.GlassesUpgrade;
@@ -10,11 +15,6 @@ import pw.untamemadman.modding.zombiemod.init.ModItems;
 import pw.untamemadman.modding.zombiemod.init.Recipes;
 import pw.untamemadman.modding.zombiemod.proxy.CommonProxy;
 import pw.untamemadman.modding.zombiemod.reference.Reference;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUIFactoryClass)
 public class ZombieMod
